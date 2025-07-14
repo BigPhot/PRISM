@@ -1,0 +1,180 @@
+[
+    {
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Develop a comprehensive plan for a life operating system AI using retrieval-augmented generation.",
+        "priority": 5,
+        "expectedTime": "4 weeks",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Define the core functionalities and user requirements of the AI.",
+                "duration": 858
+            },
+            {
+                "description": "Research what methods are best to fulfill these capabilities ",
+                "duration": 501
+            },
+            {
+                "description": "Determine the necessary data sources and pipeline for retrieval-augmented generation.",
+                "duration": 603
+            },
+            {
+                "description": "Test the datasources and pipeline to embed a simple codebase",
+                "duration": 4343
+            },
+            {
+                "description": "Now test the embeddings with the AI agent to see if it answers accurately",
+                "duration": 2628
+            },
+            {
+                "description": "Find a better embedding model to capture more semantic meaning",
+                "duration": 3350
+            }
+        ]
+    },
+    {
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "A Python script to divide the codebase into sections and enrich with GPT API.",
+        "priority": 5,
+        "expectedTime": "3 hours",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Define a function to read and iterate through files in the codebase.",
+                "duration": 4620
+            },
+            {
+                "description": "Iterate through the codebase and input each function to ChatGPT for commenting.",
+                "duration": 1406
+            },
+            {
+                "description": "Modify the function to save code chunks as a JSON file with metadata for the database.",
+                "duration": 7635
+            },
+            {
+                "description": "Implement chunking for all programming languages, including QML, in the script.",
+                "duration": 15094
+            },
+            {
+                "description": "Chunk code files into manageable sections for processing.",
+                "duration": 2189
+            },
+            {
+                "description": "Embed the Chunks and Conduct preliminary tests to validate the method's viability.",
+                "duration": 2784
+            },
+            {
+                "description": "Insert final comments in the code and QML files before splitting them into chunks.",
+                "duration": 2744
+            }
+        ]
+    },
+    {
+        "title": "Implement Claude Code into Coding Flow",
+        "description": "Integrate Claude code into an existing coding workflow for improved efficiency.",
+        "priority": 5,
+        "expectedTime": "4 hours",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Obtain the latest version of Claude code from the repository.",
+                "duration": 0
+            },
+            {
+                "description": "Review the existing coding flow and identify integration points.",
+                "duration": 0
+            },
+            {
+                "description": "Test the Claude code separately to ensure it functions correctly.",
+                "duration": 0
+            },
+            {
+                "description": "Modify the coding flow to include Claude code where needed.",
+                "duration": 0
+            },
+            {
+                "description": "Update any necessary documentation to reflect the changes.",
+                "duration": 0
+            },
+            {
+                "description": "Conduct integration testing to verify the implementation.",
+                "duration": 0
+            },
+            {
+                "description": "Gather feedback from the team and make adjustments if required.",
+                "duration": 0
+            }
+        ]
+    },
+    {
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Develop a strategy to enhance the AI Agent's comprehension of the codebase using advanced techniques.",
+        "priority": 5,
+        "expectedTime": "4-6 weeks",
+        "elapsedTime": 0,
+        "category": "del",
+        "steps": [
+            {
+                "description": "Brainstorm with ChatGPT to create a strategy for enhancing AI Agent's codebase understanding.",
+                "duration": 1236
+            },
+            {
+                "description": "Create a structured goal hierarchy to outline the AI Agent's learning objectives.",
+                "duration": 9990
+            },
+            {
+                "description": "Add projects and tasks to the task planner for better AI Agent codebase understanding.",
+                "duration": 1018
+            },
+            {
+                "description": "Create code chunks flows from the actions in Narrative OS file",
+                "duration": 3961
+            },
+            {
+                "description": "Learn Langraph to effectively model and visualize code flows.",
+                "duration": 2534
+            },
+            {
+                "description": "Utilize deep learning models for code embedding representations.",
+                "duration": 0
+            },
+            {
+                "description": "Incorporate code summarization techniques for clarity.",
+                "duration": 0
+            },
+            {
+                "description": "Integrate semantic analysis to capture code intent.",
+                "duration": 0
+            },
+            {
+                "description": "Create a feedback loop for refining understanding with user input.",
+                "duration": 0
+            },
+            {
+                "description": "Test AI Agent capabilities with various code samples.",
+                "duration": 0
+            }
+        ]
+    },
+    {
+        "title": "Create GitHub Repositories and Move Projects",
+        "description": "This task involves creating GitHub repositories and transferring existing projects into them.",
+        "priority": 5,
+        "expectedTime": "30 minutes",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Install Git on your device to manage your repositories.",
+                "duration": 624
+            },
+            {
+                "description": "Initialize Git, add remote repo, stage files, commit, and push to GitHub.",
+                "duration": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,821 @@
+[
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Review the React Native code and Firebase emulator setup for image retrieval.",
+        "timestamp": "2025-05-19 10:47:12",
+        "duration": "17:12"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Upload images to Firebase Storage and store their URLs in Firestore.",
+        "timestamp": "2025-05-19 11:12:23",
+        "duration": "16:32"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Query Firestore to get image URLs.",
+        "timestamp": "2025-05-19 11:39:20",
+        "duration": "18:30"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Timer Log in QML Task List Application",
+        "description": "Add a logging feature to record timer stops with relevant details.",
+        "timestamp": "2025-05-19 13:41:48",
+        "duration": "21:01"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Build a test QML app to implement and test drag-and-drop for rectangles.",
+        "timestamp": "2025-05-19 13:48:21",
+        "duration": "3:26"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Add dragging and dropping functionality for rectangle objects to rearrange within containers.",
+        "timestamp": "2025-05-19 13:57:47",
+        "duration": "7:59"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Add dragging and dropping functionality for rectangle objects to rearrange within containers.",
+        "timestamp": "2025-05-19 14:15:11",
+        "duration": "6:32"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Implement drag and drop handlers for the rectangles.",
+        "timestamp": "2025-05-19 14:41:16",
+        "duration": "25:50"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Test and fix the drag handler for accurate rectangle movement.",
+        "timestamp": "2025-05-19 15:11:12",
+        "duration": "15:05"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Debug Firestore queries in React Native to fetch images correctly.",
+        "timestamp": "2025-05-20 10:47:29",
+        "duration": "50:07"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Debug Firestore queries in React Native to fetch images correctly.",
+        "timestamp": "2025-05-20 15:01:11",
+        "duration": "15:23"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Color Coding for Tasks and Related Improvements",
+        "description": "Add titles to each of the task categories",
+        "timestamp": "2025-05-21 11:20:17",
+        "duration": "36:18"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Test and fix the drag handler for accurate rectangle movement.",
+        "timestamp": "2025-05-22 10:29:06",
+        "duration": "21:48"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Test and fix the drag handler for accurate rectangle movement.",
+        "timestamp": "2025-05-22 11:06:00",
+        "duration": "23:36"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Test and fix the drag handler for accurate rectangle movement.",
+        "timestamp": "2025-05-22 12:32:39",
+        "duration": "38:00"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Test and fix the drag handler for accurate rectangle movement.",
+        "timestamp": "2025-05-22 16:12:10",
+        "duration": "12:16"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Handle drop events to rearrange rectangles within target containers.",
+        "timestamp": "2025-05-22 16:15:11",
+        "duration": "5:54"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Enable dragging of rectangles to categorize them in different containers.",
+        "timestamp": "2025-05-22 17:52:04",
+        "duration": "16:28"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Enable dragging of rectangles to categorize them in different containers.",
+        "timestamp": "2025-05-23 19:08:29",
+        "duration": "41:48"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Uninstall the web-based Firebase SDK; use only React Native Firebase.",
+        "timestamp": "2025-05-26 10:40:15",
+        "duration": "45:48"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Uninstall the web-based Firebase SDK; use only React Native Firebase.",
+        "timestamp": "2025-05-26 11:41:32",
+        "duration": "36:38"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Uninstall the web-based Firebase SDK; use only React Native Firebase.",
+        "timestamp": "2025-05-26 14:42:23",
+        "duration": "1:08:02"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Uninstall the web-based Firebase SDK; use only React Native Firebase.",
+        "timestamp": "2025-05-26 15:20:27",
+        "duration": "31:35"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Define the core functionalities and user requirements of the AI.",
+        "timestamp": "2025-05-27 10:17:54",
+        "duration": "14:18"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Research what methods are best to fulfill these capabilities ",
+        "timestamp": "2025-05-27 10:30:11",
+        "duration": "8:21"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Migrate your project to a new React Native setup that supports the card swiper and firebase sdk. ",
+        "timestamp": "2025-05-27 12:05:18",
+        "duration": "1:02:24"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Migrate your project to a new React Native setup that supports the card swiper and firebase sdk.",
+        "timestamp": "2025-05-27 15:27:07",
+        "duration": "1:34:02"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Now test querying the firestore from the new project",
+        "timestamp": "2025-05-27 15:56:23",
+        "duration": "11:45"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Now test querying the firestore from the new project",
+        "timestamp": "2025-05-27 18:35:44",
+        "duration": "41:22"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Now test querying the firestore from the new project",
+        "timestamp": "2025-05-27 19:27:12",
+        "duration": "20:32"
+    },
+    {
+        "project": "ImBored",
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Store image URLs in state and map them to render each image on a card.",
+        "timestamp": "2025-05-28 11:41:40",
+        "duration": "1:04:02"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Enable dragging of rectangles to categorize them in different containers.",
+        "timestamp": "2025-05-28 15:23:05",
+        "duration": "1:16:48"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Implement drag and drop logic for all rectangle containers.",
+        "timestamp": "2025-05-28 16:41:03",
+        "duration": "0:12:26"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Implement drag and drop logic for all rectangle containers.",
+        "timestamp": "2025-05-28 19:36:46",
+        "duration": "0:33:25"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Determine the necessary data sources for retrieval-augmented generation.",
+        "timestamp": "2025-05-29 10:38:24",
+        "duration": "0:10:03"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Test the datasources and pipeline to embed a simple codebase",
+        "timestamp": "2025-05-29 11:31:49",
+        "duration": "0:34:14"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Test the datasources and pipeline to embed a simple codebase",
+        "timestamp": "2025-05-29 16:19:04",
+        "duration": "0:38:09"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Now test the embeddings with the AI agent to see if it answers accurately",
+        "timestamp": "2025-05-29 17:52:55",
+        "duration": "0:43:48"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Find a better embedding model to capture more semantic meaning",
+        "timestamp": "2025-05-29 20:30:05",
+        "duration": "0:24:14"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Find a better embedding model to capture more semantic meaning",
+        "timestamp": "2025-06-02 10:52:50",
+        "duration": "0:31:36"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Color Coding for Tasks and Related Improvements",
+        "description": "Add titles to each of the task categories",
+        "timestamp": "2025-06-02 11:27:52",
+        "duration": "0:14:30"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Fix 'No valid move detected' error",
+        "timestamp": "2025-06-02 12:26:33",
+        "duration": "0:30:43"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Implement drag and drop logic for steps.",
+        "timestamp": "2025-06-02 14:39:47",
+        "duration": "0:35:27"
+    },
+    {
+        "project": "Prism",
+        "title": "Implement Color Coding for Tasks and Related Improvements",
+        "description": "Add titles to each of the task categories",
+        "timestamp": "2025-06-02 15:53:29",
+        "duration": "0:41:26"
+    },
+    {
+        "project": "Prism",
+        "title": "Page Navigation Strategy",
+        "description": "Create Title for each Project",
+        "timestamp": "2025-06-02 16:22:34",
+        "duration": "0:04:49"
+    },
+    {
+        "project": "Prism",
+        "title": "Page Navigation Strategy",
+        "description": "Create a button to navigate between JSON files.",
+        "timestamp": "2025-06-02 16:42:27",
+        "duration": "0:17:55"
+    },
+    {
+        "project": "Prism",
+        "title": "Page Navigation Strategy",
+        "description": "Create Title for each Project.",
+        "timestamp": "2025-06-02 18:38:41",
+        "duration": "0:17:20"
+    },
+    {
+        "project": "Prism",
+        "title": "Page Navigation Strategy",
+        "description": "Now add swapping logo functionality to button",
+        "timestamp": "2025-06-02 18:50:17",
+        "duration": "0:08:55"
+    },
+    {
+        "project": "Prism",
+        "title": "Create Desktop Shortcut for QML/Python Application",
+        "description": "Package the application using PyInstaller.",
+        "timestamp": "2025-06-03 10:25:12",
+        "duration": "0:09:32"
+    },
+    {
+        "project": "Prism",
+        "title": "Create Desktop Shortcut for QML/Python Application",
+        "description": "Create a .spec file and build the application with PyInstaller.",
+        "timestamp": "2025-06-03 11:24:22",
+        "duration": "0:15:31"
+    },
+    {
+        "project": "Prism",
+        "title": "Create Desktop Shortcut for QML/Python Application",
+        "description": "Troubleshoot read/write errors in the application's code.",
+        "timestamp": "2025-06-03 11:56:53",
+        "duration": "0:14:51"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Now test this new embedding model on a working codebase",
+        "timestamp": "2025-06-03 12:05:35",
+        "duration": "0:2:43"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Research and Plan a Life OS AI with RAG Architecture",
+        "description": "Now test this new embedding model on a working codebase",
+        "timestamp": "2025-06-03 13:37:35",
+        "duration": "0:13:21"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Define a function to read and iterate through files in the codebase.",
+        "timestamp": "2025-06-03 15:26:51",
+        "duration": "0:38:23"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Iterate through the codebase and input each function to ChatGPT for commenting.",
+        "timestamp": "2025-06-03 19:31:21",
+        "duration": "0:23:26"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Define a function to read and iterate through files in the codebase.",
+        "timestamp": "2025-06-03 19:42:41",
+        "duration": "0:10:59"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Define a function to read and iterate through files in the codebase.",
+        "timestamp": "2025-06-04 10:20:42",
+        "duration": "0:27:38"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Modify the function to save code chunks as a JSON file with metadata for the database.",
+        "timestamp": "2025-06-04 11:29:16",
+        "duration": "0:34:19"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Modify the function to save code chunks as a JSON file with metadata for the database.",
+        "timestamp": "2025-06-04 12:22:00",
+        "duration": "0:32:16"
+    },
+    {
+        "project": "ImBored",
+        "title": "Create Card for Card Swiper Application",
+        "description": "Set up the React Native environment and run the app to preview the current card design.",
+        "timestamp": "2025-06-04 14:49:09",
+        "duration": "0:10:41"
+    },
+    {
+        "project": "ImBored",
+        "title": "Create Card for Card Swiper Application",
+        "description": "Use styles to match the Canva design's colors and fonts.",
+        "timestamp": "2025-06-04 16:41:43",
+        "duration": "1:07:23"
+    },
+    {
+        "project": "ImBored",
+        "title": "Create Card for Card Swiper Application",
+        "description": "Add mock data for multiple cards to test the card component functionality.",
+        "timestamp": "2025-06-04 17:08:43",
+        "duration": "0:10:01"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Modify the function to save code chunks as a JSON file with metadata for the database.",
+        "timestamp": "2025-06-05 10:37:29",
+        "duration": "0:32:20"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-05 15:08:06",
+        "duration": "0:16:03"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-05 16:12:34",
+        "duration": "0:44:31"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-05 17:03:22",
+        "duration": "0:19:15"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Modify the function to save code chunks as a JSON file with metadata for the database.",
+        "timestamp": "2025-06-06 13:17:33",
+        "duration": "0:28:20"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-23 11:00:07",
+        "duration": "0:48:05"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-23 11:35:58",
+        "duration": "0:22:47"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-23 12:19:35",
+        "duration": "0:29:54"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-23 14:51:47",
+        "duration": "1:03:30"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Chunk code files into manageable sections for processing.",
+        "timestamp": "2025-06-23 15:45:45",
+        "duration": "0:36:29"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Embed the Chunks and Conduct preliminary tests to validate the method's viability.",
+        "timestamp": "2025-06-23 15:59:25",
+        "duration": "0:05:46"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Embed the Chunks and Conduct preliminary tests to validate the method's viability.",
+        "timestamp": "2025-06-23 16:24:31",
+        "duration": "0:11:59"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Insert final comments in the code and QML files before splitting them into chunks.",
+        "timestamp": "2025-06-23 20:29:13",
+        "duration": "0:25:45"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Determine Life Trajectory",
+        "description": "Reflect on your passions, values, and long-term goals.",
+        "timestamp": "2025-06-24 11:19:09",
+        "duration": "0:32:33"
+    },
+    {
+        "project": "Masters_Task_data.json",
+        "title": "Complete Onboarding Assignments for Georgia Tech Masters Online",
+        "description": "Reflect on your passions, values, and long-term goals.",
+        "timestamp": "2025-06-24 11:54:35",
+        "duration": "0:33:22"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Insert final comments in the code and QML files before splitting them into chunks.",
+        "timestamp": "2025-06-24 12:14:24",
+        "duration": "0:19:59"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Embed the Chunks and Conduct preliminary tests to validate the method's viability.",
+        "timestamp": "2025-06-24 14:09:13",
+        "duration": "0:17:57"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Implement chunking for all programming languages, including QML, in the script.",
+        "timestamp": "2025-06-24 14:37:14",
+        "duration": "0:07:29"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Codebase Chunking and GPT API Integration",
+        "description": "Embed the Chunks and Conduct preliminary tests to validate the method's viability.",
+        "timestamp": "2025-06-24 15:01:18",
+        "duration": "0:10:40"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Brainstorm with ChatGPT to create a strategy for enhancing AI Agent's codebase understanding.",
+        "timestamp": "2025-06-24 15:38:36",
+        "duration": "0:20:36"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create a structured goal hierarchy to outline the AI Agent's learning objectives.",
+        "timestamp": "2025-06-24 16:50:40",
+        "duration": "0:36:01"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create a structured goal hierarchy to outline the AI Agent's learning objectives.",
+        "timestamp": "2025-06-24 18:58:04",
+        "duration": "0:18:29"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Add projects and tasks to the task planner for better AI Agent codebase understanding.",
+        "timestamp": "2025-06-24 19:06:54",
+        "duration": "0:08:19"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create a structured goal hierarchy to outline the AI Agent's learning objectives.",
+        "timestamp": "2025-06-25 10:49:41",
+        "duration": "0:41:54"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Add projects and tasks to the task planner for better AI Agent codebase understanding.",
+        "timestamp": "2025-06-25 11:06:26",
+        "duration": "0:08:39"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create a structured goal hierarchy to outline the AI Agent's learning objectives.",
+        "timestamp": "2025-06-25 11:49:23",
+        "duration": "0:31:09"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create a structured goal hierarchy to outline the AI Agent's learning objectives.",
+        "timestamp": "2025-06-25 14:14:36",
+        "duration": "0:38:57"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create code chunks flows from the actions in Narrative OS file",
+        "timestamp": "2025-06-25 15:00:44",
+        "duration": "0:10:34"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Create code chunks flows from the actions in Narrative OS file",
+        "timestamp": "2025-06-25 16:19:53",
+        "duration": "0:55:27"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "AI Agent Plan for Codebase Understanding",
+        "description": "Learn Langraph to effectively model and visualize code flows.",
+        "timestamp": "2025-06-26 10:57:44",
+        "duration": "0:42:14"
+    },
+    {
+        "project": "Doctrine",
+        "title": "Review and Refine Spiritual Doctrine Notes",
+        "description": "Read through each note carefully.",
+        "timestamp": "2025-06-26 11:42:58",
+        "duration": "0:02:27"
+    },
+    {
+        "project": "Doctrine",
+        "title": "Review and Refine Spiritual Doctrine Notes",
+        "description": "Carefully read and highlight key themes in your notes for clarity and relevance.",
+        "timestamp": "2025-06-26 11:46:39",
+        "duration": "0:02:57"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a QML component for the graph display.",
+        "timestamp": "2025-06-30 10:16:24",
+        "duration": "0:03:50"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a QML graph component and connect it to the Python backend.",
+        "timestamp": "2025-06-30 10:19:37",
+        "duration": "0:03:02"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a QML graph component and connect it to the Python backend.",
+        "timestamp": "2025-06-30 10:19:38",
+        "duration": "0:03:02"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Search for a graph design you like online and replicate its style in your QML app.",
+        "timestamp": "2025-06-30 10:41:18",
+        "duration": "0:16:08"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Search for a graph design you like online and replicate its style in your QML app.",
+        "timestamp": "2025-06-30 10:54:35",
+        "duration": "0:04:52"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Integrate the Graph component into your QML application to visualize the metrics.",
+        "timestamp": "2025-06-30 12:15:15",
+        "duration": "1:03:03"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Reorganize titles to create space for the interactive graph.",
+        "timestamp": "2025-06-30 14:16:17",
+        "duration": "0:20:53"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Reorganize titles to create space for the interactive graph.",
+        "timestamp": "2025-06-30 14:38:03",
+        "duration": "0:11:15"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Integrate the Graph component into your QML application to visualize the metrics.",
+        "timestamp": "2025-06-30 14:43:06",
+        "duration": "0:04:28"
+    },
+    {
+        "project": "Prism",
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a function to aggregate metrics for the interactive time spent graph.",
+        "timestamp": "2025-06-30 15:03:31",
+        "duration": "0:13:52"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a function to aggregate metrics for the interactive time spent graph.",
+        "timestamp": "2025-06-30 15:21:55",
+        "duration": "0:14:56"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a function to aggregate metrics for the interactive time spent graph.",
+        "timestamp": "2025-06-30 15:33:44",
+        "duration": "0:20:22"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Export DataFrame to a compatible format and render the graph using the metrics data.",
+        "timestamp": "2025-06-30 17:05:22",
+        "duration": "0:15:00"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Add user interaction features such as zoom and tooltip.",
+        "timestamp": "2025-06-30 19:05:50",
+        "duration": "0:30:03"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Integrate the Graph component into your QML application to visualize the metrics.",
+        "timestamp": "2025-07-02 10:33:58",
+        "duration": "0:12:51"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Add user interaction features such as zoom and tooltip.",
+        "timestamp": "2025-07-02 11:00:43",
+        "duration": "0:25:58"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Create a function to aggregate metrics for the interactive time spent graph.",
+        "timestamp": "2025-07-02 12:14:32",
+        "duration": "0:37:05"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Export DataFrame to a compatible format and render the graph using the metrics data.",
+        "timestamp": "2025-07-02 12:35:11",
+        "duration": "0:17:33"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Export DataFrame to a compatible format and render the graph using the metrics data.",
+        "timestamp": "2025-07-02 15:32:56",
+        "duration": "1:30:21"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Test the graph functionality within the application.",
+        "timestamp": "2025-07-02 16:24:34",
+        "duration": "0:07:40"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Set the graph to display absolute Y values for accurate metric visualization.",
+        "timestamp": "2025-07-03 11:19:30",
+        "duration": "0:43:27"
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Set the graph to display absolute Y values for accurate metric visualization.",
+        "timestamp": "2025-07-03 12:35:16",
+        "duration": "1:53:37"
+    },
+    {
+        "title": "Spiritual Framework: A Rough Draft",
+        "description": "Define core beliefs, key texts, and outline the purpose of your spiritual practice.",
+        "timestamp": "2025-07-03 14:05:29",
+        "duration": "0:04:06"
+    },
+    {
+        "title": "Spiritual Framework: A Rough Draft",
+        "description": "Define core beliefs, key texts, and outline the purpose of your spiritual practice.",
+        "timestamp": "2025-07-04 14:07:13",
+        "duration": "0:04:06"
+    },
+    {
+        "project": "LeJarvis",
+        "title": "Create GitHub Repositories and Move Projects",
+        "description": "Install Git on your device to manage your repositories.",
+        "timestamp": "2025-07-14 11:11:54",
+        "duration": "0:10:24"
+    }
+]

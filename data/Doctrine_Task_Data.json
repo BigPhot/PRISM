@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Determine Life Trajectory",
+        "description": "Assess personal goals and values to identify your desired life path.",
+        "priority": 5,
+        "expectedTime": "1 hour",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Reflect on your passions, values, and long-term goals.",
+                "duration": 1953
+            }
+        ]
+    },
+    {
+        "title": "Spiritual Framework: A Rough Draft",
+        "description": "An outline for a formal doctrine that organizes spiritual beliefs and practices.",
+        "priority": 5,
+        "expectedTime": "8 hours",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Reflect on the interplay of principles to shape the framework effectively.",
+                "duration": 12834
+            },
+            {
+                "description": "Define core beliefs, key texts, and outline the purpose of your spiritual practice.",
+                "duration": 5818
+            },
+            {
+                "description": "Include personal experiences that shaped your spiritual understanding.",
+                "duration": 0
+            },
+            {
+                "description": "Describe rituals and practices that support your beliefs.",
+                "duration": 0
+            },
+            {
+                "description": "Address ethical considerations and moral principles.",
+                "duration": 0
+            },
+            {
+                "description": "Explore the connection between spirituality and personal growth.",
+                "duration": 0
+            },
+            {
+                "description": "Review and revise the document based on feedback and reflection.",
+                "duration": 0
+            }
+        ]
+    }
+]

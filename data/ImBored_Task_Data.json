@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Display Firebase Images in React Native Card Swiper",
+        "description": "Retrieve images from Firebase and show them in the card swiper of a React Native app.",
+        "priority": 5,
+        "expectedTime": "2 hours",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Review the React Native code and Firebase emulator setup for image retrieval.",
+                "duration": 1032
+            },
+            {
+                "description": "Upload images to Firebase Storage and store their URLs in Firestore.",
+                "duration": 992
+            },
+            {
+                "description": "Query Firestore to get image URLs.",
+                "duration": 1110
+            },
+            {
+                "description": "Debug Firestore queries in React Native to fetch images correctly.",
+                "duration": 3930
+            },
+            {
+                "description": "Uninstall the web-based Firebase SDK; use only React Native Firebase.",
+                "duration": 10923
+            },
+            {
+                "description": "Migrate your project to a new React Native setup that supports the card swiper and firebase sdk.",
+                "duration": 9386
+            },
+            {
+                "description": "Now test querying the firestore from the new project",
+                "duration": 4419
+            },
+            {
+                "description": "Store image URLs in state and map them to render each image on a card.",
+                "duration": 3842
+            }
+        ]
+    },
+    {
+        "title": "Upload Pictures to Firebase from React Native",
+        "description": "Implement photo upload functionality in a React Native app to connect with Firebase.",
+        "priority": 5,
+        "expectedTime": "2-3 hours",
+        "elapsedTime": 0,
+        "category": "idea",
+        "steps": [
+            {
+                "description": "Create a form for selecting images using an image picker.",
+                "duration": 0
+            },
+            {
+                "description": "Configure Firebase Storage in your React Native app.",
+                "duration": 0
+            },
+            {
+                "description": "Write a function to upload selected images to Firebase Storage.",
+                "duration": 0
+            },
+            {
+                "description": "Handle upload progress and success/error states.",
+                "duration": 0
+            },
+            {
+                "description": "Display uploaded image URLs or confirmations in the app.",
+                "duration": 0
+            }
+        ]
+    },
+    {
+        "title": "Create Card for Card Swiper Application",
+        "description": "Design and implement a card component in a React Native application.",
+        "priority": 5,
+        "expectedTime": "3-5 hours",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Set up the React Native environment and run the app to preview the current card design.",
+                "duration": 641
+            },
+            {
+                "description": "Use styles to match the Canva design's colors and fonts.",
+                "duration": 4043
+            },
+            {
+                "description": "Add mock data for multiple cards to test the card component functionality.",
+                "duration": 601
+            },
+            {
+                "description": "Test the card's responsiveness on different device sizes.",
+                "duration": 0
+            }
+        ]
+    }
+]

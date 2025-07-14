@@ -1,0 +1,266 @@
+[
+    {
+        "title": "Implement Drag and Drop for Rectangles in QML",
+        "description": "Add dragging and dropping functionality for rectangle objects to rearrange within containers.",
+        "priority": 5,
+        "expectedTime": "2 hours",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Build a test QML app to implement and test drag-and-drop for rectangles.",
+                "duration": 206
+            },
+            {
+                "description": "Set draggable property for rectangle objects.",
+                "duration": 871
+            },
+            {
+                "description": "Implement drag and drop handlers for the rectangles.",
+                "duration": 1550
+            },
+            {
+                "description": "Test and fix the drag handler for accurate rectangle movement.",
+                "duration": 5742
+            },
+            {
+                "description": "Handle drop events to rearrange rectangles within target containers.",
+                "duration": 354
+            },
+            {
+                "description": "Enable dragging of rectangles to categorize them in different containers.",
+                "duration": 8104
+            },
+            {
+                "description": "Implement drag and drop logic for all rectangle containers.",
+                "duration": 746
+            },
+            {
+                "description": "Fix 'No valid move detected' error",
+                "duration": 1843
+            },
+            {
+                "description": "Implement drag and drop logic for steps.",
+                "duration": 2127
+            }
+        ]
+    },
+    {
+        "title": "Implement Timer Log in QML Task List Application",
+        "description": "Add a logging feature to record timer stops with relevant details.",
+        "priority": 5,
+        "expectedTime": "3 hours",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Create a function to add new log entry to the log list.",
+                "duration": 1261
+            }
+        ]
+    },
+    {
+        "title": "Page Navigation Strategy",
+        "description": "Develop an effective navigation system for the application to enhance user experience.",
+        "priority": 5,
+        "expectedTime": "2 weeks",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Create Title for each Project.",
+                "duration": 1329
+            },
+            {
+                "description": "Create a button to navigate between JSON files.",
+                "duration": 1075
+            },
+            {
+                "description": "Now add swapping logo functionality to button",
+                "duration": 535
+            }
+        ]
+    },
+    {
+        "title": "Create Desktop Shortcut for QML/Python Application",
+        "description": "This task outlines how to package a QML/Python application for desktop execution.",
+        "priority": 5,
+        "expectedTime": "30 minutes",
+        "elapsedTime": 0,
+        "category": "rlty",
+        "steps": [
+            {
+                "description": "Package the application using PyInstaller.",
+                "duration": 572
+            },
+            {
+                "description": "Create a .spec file and build the application with PyInstaller.",
+                "duration": 931
+            },
+            {
+                "description": "Troubleshoot read/write errors in the application's code.",
+                "duration": 891
+            },
+            {
+                "description": "Create a shortcut to the executable on your desktop.",
+                "duration": 163
+            }
+        ]
+    },
+    {
+        "title": "Implement Color Coding for Tasks and Related Improvements",
+        "description": "Enhance the task input container to include color coding based on priority and goal. Create a better visually appealing background for the new colored tasks",
+        "priority": 5,
+        "expectedTime": "4 hours",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Edit existing QML layout for color coding",
+                "duration": 5400
+            },
+            {
+                "description": "Add titles to each of the task categories",
+                "duration": 5534
+            },
+            {
+                "description": "Add input fields for priority and goal selection.",
+                "duration": 0
+            },
+            {
+                "description": "Create a mapping of goals to specific colors.",
+                "duration": 0
+            },
+            {
+                "description": "Update the UI to reflect the color coding in the task list.",
+                "duration": 0
+            }
+        ]
+    },
+    {
+        "title": "Designing Progress Tracking for Physical Health",
+        "description": "Brainstorm metrics for tracking physical health improvement and GUI layout.",
+        "priority": 5,
+        "expectedTime": "2 hours",
+        "elapsedTime": 0,
+        "category": "idea",
+        "steps": [
+            {
+                "description": "Identify key metrics: weight, exercise frequency, endurance, BMI, recovery time.",
+                "duration": 0
+            },
+            {
+                "description": "Determine data collection methods: manual input, integration with wearables.",
+                "duration": 0
+            },
+            {
+                "description": "Sketch GUI layout focusing on user-friendly navigation.",
+                "duration": 0
+            },
+            {
+                "description": "Organize categories: weight tracking, workout logs, diet overview.",
+                "duration": 0
+            },
+            {
+                "description": "Include visual aids: graphs for weight change, progress bars for goals.",
+                "duration": 0
+            },
+            {
+                "description": "Add summary section of overall health status and trends.",
+                "duration": 0
+            },
+            {
+                "description": "Consider notifications for reminders and milestones.",
+                "duration": 0
+            }
+        ]
+    },
+    {
+        "title": "Add Stacked Timeline to QML Application",
+        "description": "Implement a Gantt-style timeline for visual task representation.",
+        "priority": 5,
+        "expectedTime": "5 hours",
+        "elapsedTime": 0,
+        "category": "idea",
+        "steps": [
+            {
+                "description": "Design a basic layout for the timeline and task blocks in QML.",
+                "duration": 0
+            },
+            {
+                "description": "Create a ListView for displaying the main task list.",
+                "duration": 0
+            },
+            {
+                "description": "Define a model for handling tasks and their timelines.",
+                "duration": 0
+            },
+            {
+                "description": "Implement a StackedBarChart or equivalent component for timeline view.",
+                "duration": 0
+            },
+            {
+                "description": "Connect the ListView selection to highlight corresponding timeline task blocks.",
+                "duration": 0
+            },
+            {
+                "description": "Style the timeline and task blocks for better visual appeal.",
+                "duration": 0
+            },
+            {
+                "description": "Test the interaction between the task list and timeline functionality.",
+                "duration": 0
+            }
+        ]
+    },
+    {
+        "title": "Add Interactive Graph to QML Application",
+        "description": "Integrate an interactive graph that visualizes metrics processed by Pandas in your QML application.",
+        "priority": 5,
+        "expectedTime": "4-6 hours",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Create a QML graph component and connect it to the Python backend.",
+                "duration": 364
+            },
+            {
+                "description": "Search for a graph design you like online and replicate its style in your QML app.",
+                "duration": 1260
+            },
+            {
+                "description": "Integrate the Graph component into your QML application to visualize the metrics.",
+                "duration": 4822
+            },
+            {
+                "description": "Reorganize titles to create space for the interactive graph.",
+                "duration": 1928
+            },
+            {
+                "description": "Create a function to aggregate metrics for the interactive time spent graph.",
+                "duration": 5175
+            },
+            {
+                "description": "Export DataFrame to a compatible format and render the graph using the metrics data.",
+                "duration": 7374
+            },
+            {
+                "description": "Add user interaction features such as zoom and tooltip.",
+                "duration": 3361
+            },
+            {
+                "description": "Test the graph functionality within the application.",
+                "duration": 460
+            },
+            {
+                "description": "Set the graph to display absolute Y values for accurate metric visualization.",
+                "duration": 9424
+            },
+            {
+                "description": "Ensure the backend aggregates data correctly for date ranges under a week.",
+                "duration": 0
+            }
+        ]
+    }
+]

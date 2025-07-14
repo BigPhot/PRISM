@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Complete Onboarding Assignments for Georgia Tech Masters Online",
+        "description": "Successfully finish all onboarding tasks for enrollment in the program.",
+        "priority": 5,
+        "expectedTime": "5-7 hours",
+        "elapsedTime": 0,
+        "category": "dev",
+        "steps": [
+            {
+                "description": "Submit required paperwork to release account hold for onboarding tasks.",
+                "duration": 2002
+            },
+            {
+                "description": "Review the onboarding checklist provided.",
+                "duration": 0
+            },
+            {
+                "description": "Complete necessary paperwork for enrollment.",
+                "duration": 0
+            },
+            {
+                "description": "Submit any required identification documents.",
+                "duration": 0
+            },
+            {
+                "description": "Attend the welcome orientation session.",
+                "duration": 0
+            }
+        ]
+    }
+]
