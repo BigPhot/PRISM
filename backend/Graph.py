@@ -55,6 +55,7 @@ def aggregate_nodes(df, start_date, end_date, graph_width=785):
     df = df[mask].copy()
 
     total_days = (end_date - start_date).days
+    
     bucket_size = get_bucket_size(total_days)
 
     # Assign bucket based on size
@@ -66,19 +67,19 @@ def aggregate_nodes(df, start_date, end_date, graph_width=785):
     # Aggregate durations
     agg = df.groupby('bucket')['duration'].sum().reset_index()
 
-    # Patch in missing weeks (0 durations)
-    patched = add_missing_buckets(agg, start_date, end_date)
-
+    # Patch in missing buckets (0 durations)
+    patched = add_missing_buckets(agg, start_date, end_date, bucket_size)
 
     # Calculate max duration (in minutes) for scaling
     all_durations = [d['duration'].total_seconds() / 60 for d in patched]
     time_span = (end_date - start_date).total_seconds()
 
-    max_duration_min = max(item['duration'].total_seconds() / 60 for item in patched)
+    max_duration_min = max(item['duration'].total_seconds() / 60 for item in patched) if patched else 0
     padding = 10  # extra space above the tallest bar/node
-    unit_height= 1
+    unit_height = 1
 
     nodes = []
+    points = []  # Store points for recalculation
 
     for item in patched:
         ts = item['bucket']
@@ -95,7 +96,26 @@ def aggregate_nodes(df, start_date, end_date, graph_width=785):
             # Absolute Y position (invert so 0 is bottom)
             y = int((max_duration_min + padding - duration_min) * unit_height)
 
-        nodes.append({'x': x, 'y': y, 'label': label})
+        node_data = {
+            'x': x, 
+            'y': y, 
+            'label': label,
+            'duration_min': duration_min,
+            'timestamp': ts,
+            'bucket_size': bucket_size
+        }
+        nodes.append(node_data)
+        
+        # Store points for potential recalculation
+        points.append({
+            'timestamp': ts,
+            'duration_min': duration_min,
+            'x_percent': x_percent
+        })
+
+    # Add points to nodes for recalculation capability
+    for node in nodes:
+        node['points'] = points
 
     return nodes
 
@@ -104,16 +124,25 @@ def filter_by_project(df, project_name):
     """Returns a new DataFrame containing only rows for the given project."""
     return df[df['project'] == project_name].copy()
 
-def add_missing_buckets(agg, start_date, end_date):
+def add_missing_buckets(agg, start_date, end_date, bucket_size=7):
     """
-    Returns a list of dicts, one per week starting on Monday, with 0 duration if missing from agg.
+    Returns a list of dicts, one per bucket period, with 0 duration if missing from agg.
+    Handles different bucket sizes dynamically.
     """
-    # Get list of all Mondays between start_date and end_date
-    current = start_date - timedelta(days=start_date.weekday())  # align to Monday
     all_buckets = []
-    while current <= end_date:
-        all_buckets.append(current)
-        current += timedelta(days=7)
+    
+    if bucket_size == 7:
+        # Weekly buckets starting on Monday
+        current = start_date - timedelta(days=start_date.weekday())
+        while current <= end_date:
+            all_buckets.append(current)
+            current += timedelta(days=7)
+    else:
+        # Daily buckets with specified size
+        current = start_date
+        while current <= end_date:
+            all_buckets.append(current)
+            current += timedelta(days=bucket_size)
 
     # Convert existing buckets to a dict for quick lookup
     duration_lookup = {row['bucket']: row['duration'] for _, row in agg.iterrows()}
@@ -125,6 +154,50 @@ def add_missing_buckets(agg, start_date, end_date):
         result.append({'bucket': b, 'duration': duration})
 
     return result
+
+def recalculate_node_positions(nodes, start_date, end_date, graph_width=785):
+    """
+    Recalculates node positions when bucket size changes due to date range modification.
+    """
+    if not nodes:
+        return nodes
+    
+    # Get the stored points from the first node
+    points = nodes[0].get('points', [])
+    if not points:
+        return nodes
+    
+    total_days = (end_date - start_date).days
+    bucket_size = get_bucket_size(total_days)
+    time_span = (end_date - start_date).total_seconds()
+    
+    # Find max duration for scaling
+    max_duration_min = max(point['duration_min'] for point in points) if points else 0
+    padding = 10
+    unit_height = 1
+    
+    # Recalculate positions for each node
+    for i, node in enumerate(nodes):
+        if i < len(points):
+            point = points[i]
+            
+            # Recalculate X position
+            x_percent = (point['timestamp'] - start_date).total_seconds() / time_span
+            x = int(x_percent * graph_width)
+            
+            # Recalculate Y position
+            duration_min = point['duration_min']
+            if duration_min == 0:
+                y = 310
+            else:
+                y = int((max_duration_min + padding - duration_min) * unit_height)
+            
+            # Update node
+            node['x'] = x
+            node['y'] = y
+            node['bucket_size'] = bucket_size
+    
+    return nodes
 
 def graph_nodes_creation(start_date, end_date, project):
     file = 'C:/Users/adhir/Development/PRISM/data/Task_Activity_Log.json'
